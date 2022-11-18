@@ -17,7 +17,7 @@ const Hero = (props) => (
             onInit={(typewriter)=>{
               typewriter.changeDelay('natural')
               typewriter.changeDeleteSpeed(300)
-              typewriter.typeString("Hi, My name is Mac,l").pauseFor(300).deleteChars(2).typeString("Laren")
+              typewriter.typeString("Hi, my name is Mac,l").pauseFor(300).deleteChars(2).typeString("Laren")
               .pauseFor("1000")
               .typeString("!")
               // .typeString("Welcome to my site!")
