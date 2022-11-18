@@ -99,6 +99,7 @@ transition: 0.5s;
   background: #801414;
 
 }
+margin-bottom:1rem;
 `;
 
 export const TagList = styled.ul`
@@ -108,5 +109,12 @@ padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
-font-size: 1.5rem;
+font-size: 1.2rem;
+// border: solid black;
+// border-radius: 2px;
+padding:1rem 1rem;
+border:2px solid #801414 ;
+opacity: 90%;
+border-radius: 15px;
+
 `
