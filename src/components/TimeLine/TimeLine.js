@@ -44,7 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>My timeline</SectionTitle>
       <SectionText>
       
       </SectionText>
