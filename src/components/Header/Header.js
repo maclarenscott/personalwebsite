@@ -12,7 +12,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" , fontSize:"2rem"}}>
           {/* <DiCssdeck size="3rem" />  */}
-          <span > {"<"}Mac {"/>"}</span>
+          <span > {"<"}mac {"/>"}</span>
         </a>
       </Link>
     </Div1>
