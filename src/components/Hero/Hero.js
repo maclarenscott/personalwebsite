@@ -17,8 +17,7 @@ const Hero = (props) => (
             onInit={(typewriter)=>{
               typewriter.changeDelay('natural')
               typewriter.changeDeleteSpeed(300)
-              typewriter.typeString("Hi, my name is Mac,l").pauseFor(300).deleteChars(2).typeString("Laren")
-              .pauseFor("1000")
+              typewriter.typeString("Hi, my name is MacLaren").pauseFor(300)
               .typeString("!")
               // .typeString("Welcome to my site!")
               .start();
@@ -31,7 +30,7 @@ const Hero = (props) => (
             onInit={(typewriter)=>{
               typewriter.pauseFor(8000)
               typewriter.changeDelay(.2)
-              typewriter.typeString("I'm a web developer studying computer science at McGill University.")
+              typewriter.typeString("I'm a developer studying mathematics and computer science at McGill University.")
               .start();
             }}  
           />
